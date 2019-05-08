@@ -9,9 +9,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @MapperScan(value = "com.neuedu.SpringBoot001hs.mapper")
-public class Applic {
+public class Application {
 
-	static Logger logger= LoggerFactory.getLogger(Applic.class);
+	static Logger logger= LoggerFactory.getLogger(Application.class);
 
 	public static void main(String[] args) {
 
@@ -20,7 +20,7 @@ public class Applic {
 		//SpringApplication.run(Applic.class, args);
 
 
-		SpringApplication application=new SpringApplication(Applic.class);
+		SpringApplication application=new SpringApplication(Application.class);
 		//手动设置命令行不起作用
 		//application.setAddCommandLineProperties(false);
 		application.run(args);
