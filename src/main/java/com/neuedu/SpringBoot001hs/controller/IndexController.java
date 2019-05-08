@@ -1,13 +1,12 @@
 package com.neuedu.SpringBoot001hs.controller;
 
 import com.neuedu.SpringBoot001hs.entity.Goods;
-import com.neuedu.SpringBoot001hs.entity.User;
+import com.neuedu.SpringBoot001hs.entity.UserConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.validation.Valid;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,16 +19,16 @@ public class IndexController {
 
 
     @Autowired
-    private User user;
+    private UserConfig userConfig;
 
     @GetMapping("/index")
-    public List<User> getUser(){
-        List<User> list=new ArrayList<>();
+    public List<UserConfig> getUserConfig(){
+        List<UserConfig> list=new ArrayList<>();
 //        User user=new User();
 //        user.setId(1);
 //        user.setUsername("gary");
 //        user.setPassword("123456");
-        list.add(user);
+        list.add(userConfig);
         return list;
     }
 

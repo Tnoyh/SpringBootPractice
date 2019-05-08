@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.neuedu.SpringBoot001hs.mapper.UserMapper">
+    <resultMap id="userMap" type="com.neuedu.SpringBoot001hs.entity.User">
+        <id column="u_id" property="id" jdbcType="INTEGER" />
+        <result column="u_user" property="user" jdbcType="VARCHAR" />
+        <result column="u_password" property="password" jdbcType="VARCHAR" />
+        <result column="u_email" property="email" jdbcType="VARCHAR" />
+        <result column="u_phone" property="phone" jdbcType="VARCHAR" />
+        <result column="u_name" property="name" jdbcType="VARCHAR" />
+        <result column="u_createtime" property="createtime" jdbcType="VARCHAR" />
+        <result column="u_headurl" property="headurl" jdbcType="VARCHAR" />
+        <result column="u_status" property="status" jdbcType="INTEGER" />
+    </resultMap>
+    <sql id="Base_Column_List" >  <!--基础列会重复写很多遍-->
+    u_user,u_password,u_email,u_phone,u_name,u_createtime,u_headurl,u_status
+    </sql>
+    <!--添加数据-->
+    <insert id="insertUser" parameterType="com.neuedu.SpringBoot001hs.entity.User">    <!--id随便起个名字就可以-->
+        INSERT USER (<include refid="Base_Column_List"/>)
+        values (#{user},#{password},#{email},#{phone},#{name},#{createtime},#{headurl},#{status})
+    </insert>
+
+    <!--查询所有数据-->
+    <select id="selectAll" resultMap="userMap">
+        select u_id,<include refid="Base_Column_List"/>
+        from USER
+    </select>
+
+    <!--修改数据-->
+    <!--<update id="">-->
+
+    <!--</update>-->
+
+    <!--删除数据-->
+    <!--<delete id="">-->
+
+    <!--</delete>-->
+</mapper>

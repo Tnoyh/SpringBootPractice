@@ -1,27 +1,78 @@
-2019-05-06 11:46:12.098 [main] INFO  com.neuedu.SpringBoot001hs.Applic - Starting Applic on huangshuaideMacBook-Pro.local with PID 12183 (/Users/tnoyh/Studio/IDEA/SpringBoot/SpringBoot001hs/target/classes started by tnoyh in /Users/tnoyh/Studio/IDEA/SpringBoot/SpringBoot001hs)
-2019-05-06 11:46:12.100 [main] INFO  com.neuedu.SpringBoot001hs.Applic - No active profile set, falling back to default profiles: default
-2019-05-06 11:46:12.945 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
-2019-05-06 11:46:12.955 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
-2019-05-06 11:46:12.961 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2019-05-06 11:46:12.962 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
-2019-05-06 11:46:13.018 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2019-05-06 11:46:13.018 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 879 ms
-2019-05-06 11:46:13.170 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2019-05-06 11:46:13.278 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
-2019-05-06 11:46:13.310 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
-2019-05-06 11:46:13.312 [main] INFO  com.neuedu.SpringBoot001hs.Applic - Started Applic in 1.602 seconds (JVM running for 2.311)
-2019-05-06 16:23:46.095 [main] INFO  c.neuedu.SpringBoot001hs.service.GoodsServiceTest - Starting GoodsServiceTest on huangshuaideMacBook-Pro.local with PID 12426 (started by tnoyh in /Users/tnoyh/Studio/IDEA/SpringBoot/SpringBoot001hs)
-2019-05-06 16:23:46.097 [main] INFO  c.neuedu.SpringBoot001hs.service.GoodsServiceTest - No active profile set, falling back to default profiles: default
-2019-05-06 16:23:47.564 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2019-05-06 16:23:47.805 [main] INFO  c.neuedu.SpringBoot001hs.service.GoodsServiceTest - Started GoodsServiceTest in 2.336 seconds (JVM running for 3.241)
-2019-05-06 16:23:47.985 [main] INFO  c.neuedu.SpringBoot001hs.service.GoodsServiceTest - Before
-2019-05-06 16:23:47.986 [main] INFO  c.neuedu.SpringBoot001hs.service.GoodsServiceTest - Test
-2019-05-06 16:23:47.987 [main] INFO  c.neuedu.SpringBoot001hs.service.GoodsServiceTest - After
-2019-05-06 16:23:47.991 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2019-05-06 16:51:24.788 [main] INFO  c.neuedu.SpringBoot001hs.service.GoodsServiceTest - Starting GoodsServiceTest on huangshuaideMacBook-Pro.local with PID 12490 (started by tnoyh in /Users/tnoyh/Studio/IDEA/SpringBoot/SpringBoot001hs)
-2019-05-06 16:51:24.791 [main] INFO  c.neuedu.SpringBoot001hs.service.GoodsServiceTest - No active profile set, falling back to default profiles: default
-2019-05-06 16:51:26.033 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2019-05-06 16:51:26.268 [main] INFO  c.neuedu.SpringBoot001hs.service.GoodsServiceTest - Started GoodsServiceTest in 2.033 seconds (JVM running for 2.837)
-2019-05-06 16:51:26.435 [main] INFO  c.neuedu.SpringBoot001hs.service.GoodsServiceTest - Before
-2019-05-06 16:51:26.436 [main] INFO  c.neuedu.SpringBoot001hs.service.GoodsServiceTest - After
-2019-05-06 16:51:26.440 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-08 09:40:37.464 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-08 09:40:37.474 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-05-08 09:40:37.516 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 41 ms
+2019-05-08 09:41:25.750 [main] INFO  com.neuedu.SpringBoot001hs.mapper.UserMapperTest - Starting UserMapperTest on huangshuaideMacBook-Pro.local with PID 15312 (started by tnoyh in /Users/tnoyh/Studio/IDEA/SpringBoot/SpringBoot001hs)
+2019-05-08 09:41:25.752 [main] INFO  com.neuedu.SpringBoot001hs.mapper.UserMapperTest - No active profile set, falling back to default profiles: default
+2019-05-08 09:41:27.538 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-08 09:41:27.765 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-05-08 09:41:28.025 [main] INFO  com.neuedu.SpringBoot001hs.mapper.UserMapperTest - Started UserMapperTest in 2.735 seconds (JVM running for 3.434)
+2019-05-08 09:41:28.211 [main] INFO  com.zaxxer.hikari.HikariDataSource - UserHikariCP - Starting...
+2019-05-08 09:41:28.395 [main] INFO  com.zaxxer.hikari.HikariDataSource - UserHikariCP - Start completed.
+2019-05-08 09:41:28.501 [main] INFO  com.neuedu.SpringBoot001hs.mapper.UserMapperTest - 3记录数
+2019-05-08 09:41:28.501 [main] INFO  com.neuedu.SpringBoot001hs.mapper.UserMapperTest - 读取数据User(id=1, user=zhangsan, password=123456, email=hhhh@jjk.com, phone=13688886666, name=null, createtime=Tue May 07 11:12:40 CST 2019, headurl=null, status=0)
+2019-05-08 09:41:28.501 [main] INFO  com.neuedu.SpringBoot001hs.mapper.UserMapperTest - 读取数据User(id=2, user=zhangsan, password=123456, email=hhhh@jjk.com, phone=13688886666, name=null, createtime=Tue May 07 15:57:36 CST 2019, headurl=null, status=0)
+2019-05-08 09:41:28.502 [main] INFO  com.neuedu.SpringBoot001hs.mapper.UserMapperTest - 读取数据User(id=3, user=zhangsan, password=123456, email=hhhh@jjk.com, phone=13688886666, name=null, createtime=Tue May 07 15:57:36 CST 2019, headurl=null, status=0)
+2019-05-08 09:41:28.509 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-08 09:41:28.510 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - UserHikariCP - Shutdown initiated...
+2019-05-08 09:41:28.514 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - UserHikariCP - Shutdown completed.
+2019-05-08 10:21:39.789 [main] INFO  com.neuedu.SpringBoot001hs.mapper.UserMapperTest - Starting UserMapperTest on huangshuaideMacBook-Pro.local with PID 15444 (started by tnoyh in /Users/tnoyh/Studio/IDEA/SpringBoot/SpringBoot001hs)
+2019-05-08 10:21:39.791 [main] INFO  com.neuedu.SpringBoot001hs.mapper.UserMapperTest - No active profile set, falling back to default profiles: default
+2019-05-08 10:21:41.417 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-08 10:21:41.613 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-05-08 10:21:41.853 [main] INFO  com.neuedu.SpringBoot001hs.mapper.UserMapperTest - Started UserMapperTest in 2.666 seconds (JVM running for 3.377)
+2019-05-08 10:21:42.091 [main] INFO  com.zaxxer.hikari.HikariDataSource - UserHikariCP - Starting...
+2019-05-08 10:21:42.279 [main] INFO  com.zaxxer.hikari.HikariDataSource - UserHikariCP - Start completed.
+2019-05-08 10:21:42.377 [main] INFO  com.neuedu.SpringBoot001hs.mapper.UserMapperTest - 3记录数
+2019-05-08 10:21:42.377 [main] INFO  com.neuedu.SpringBoot001hs.mapper.UserMapperTest - 读取数据User(id=1, user=zhangsan, password=123456, email=hhhh@jjk.com, phone=13688886666, name=null, createtime=Tue May 07 11:12:40 CST 2019, headurl=null, status=0)
+2019-05-08 10:21:42.378 [main] INFO  com.neuedu.SpringBoot001hs.mapper.UserMapperTest - 读取数据User(id=2, user=zhangsan, password=123456, email=hhhh@jjk.com, phone=13688886666, name=null, createtime=Tue May 07 15:57:36 CST 2019, headurl=null, status=0)
+2019-05-08 10:21:42.378 [main] INFO  com.neuedu.SpringBoot001hs.mapper.UserMapperTest - 读取数据User(id=3, user=zhangsan, password=123456, email=hhhh@jjk.com, phone=13688886666, name=null, createtime=Tue May 07 15:57:36 CST 2019, headurl=null, status=0)
+2019-05-08 10:21:42.385 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-08 10:21:42.386 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - UserHikariCP - Shutdown initiated...
+2019-05-08 10:21:42.392 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - UserHikariCP - Shutdown completed.
+2019-05-08 10:26:13.633 [main] INFO  com.neuedu.SpringBoot001hs.mapper.UserMapperTest - Starting UserMapperTest on huangshuaideMacBook-Pro.local with PID 15456 (started by tnoyh in /Users/tnoyh/Studio/IDEA/SpringBoot/SpringBoot001hs)
+2019-05-08 10:26:13.638 [main] INFO  com.neuedu.SpringBoot001hs.mapper.UserMapperTest - No active profile set, falling back to default profiles: default
+2019-05-08 10:26:15.422 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-08 10:26:15.625 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-05-08 10:26:15.898 [main] INFO  com.neuedu.SpringBoot001hs.mapper.UserMapperTest - Started UserMapperTest in 2.875 seconds (JVM running for 3.667)
+2019-05-08 10:26:16.118 [main] INFO  com.zaxxer.hikari.HikariDataSource - UserHikariCP - Starting...
+2019-05-08 10:26:16.316 [main] INFO  com.zaxxer.hikari.HikariDataSource - UserHikariCP - Start completed.
+2019-05-08 10:26:16.437 [main] INFO  com.neuedu.SpringBoot001hs.mapper.UserMapperTest - 3记录数
+2019-05-08 10:26:16.438 [main] INFO  com.neuedu.SpringBoot001hs.mapper.UserMapperTest - 读取数据User(id=1, user=zhangsan, password=123456, email=hhhh@jjk.com, phone=13688886666, name=null, createtime=Tue May 07 11:12:40 CST 2019, headurl=null, status=0)
+2019-05-08 10:26:16.438 [main] INFO  com.neuedu.SpringBoot001hs.mapper.UserMapperTest - 读取数据User(id=2, user=zhangsan, password=123456, email=hhhh@jjk.com, phone=13688886666, name=null, createtime=Tue May 07 15:57:36 CST 2019, headurl=null, status=0)
+2019-05-08 10:26:16.438 [main] INFO  com.neuedu.SpringBoot001hs.mapper.UserMapperTest - 读取数据User(id=3, user=zhangsan, password=123456, email=hhhh@jjk.com, phone=13688886666, name=null, createtime=Tue May 07 15:57:36 CST 2019, headurl=null, status=0)
+2019-05-08 10:26:16.446 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-08 10:26:16.447 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - UserHikariCP - Shutdown initiated...
+2019-05-08 10:26:16.453 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - UserHikariCP - Shutdown completed.
+2019-05-08 10:30:09.800 [main] INFO  com.neuedu.SpringBoot001hs.mapper.UserMapperTest - Starting UserMapperTest on huangshuaideMacBook-Pro.local with PID 15466 (started by tnoyh in /Users/tnoyh/Studio/IDEA/SpringBoot/SpringBoot001hs)
+2019-05-08 10:30:09.803 [main] INFO  com.neuedu.SpringBoot001hs.mapper.UserMapperTest - No active profile set, falling back to default profiles: default
+2019-05-08 10:30:11.857 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-08 10:30:12.062 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-05-08 10:30:12.330 [main] INFO  com.neuedu.SpringBoot001hs.mapper.UserMapperTest - Started UserMapperTest in 3.138 seconds (JVM running for 3.876)
+2019-05-08 10:30:12.573 [main] INFO  com.zaxxer.hikari.HikariDataSource - UserHikariCP - Starting...
+2019-05-08 10:30:12.815 [main] INFO  com.zaxxer.hikari.HikariDataSource - UserHikariCP - Start completed.
+2019-05-08 10:30:12.939 [main] INFO  com.neuedu.SpringBoot001hs.mapper.UserMapperTest - 3记录数
+2019-05-08 10:30:12.939 [main] INFO  com.neuedu.SpringBoot001hs.mapper.UserMapperTest - 读取数据User(id=1, user=zhangsan, password=123456, email=hhhh@jjk.com, phone=13688886666, name=null, createtime=Tue May 07 11:12:40 CST 2019, headurl=null, status=0)
+2019-05-08 10:30:12.939 [main] INFO  com.neuedu.SpringBoot001hs.mapper.UserMapperTest - 读取数据User(id=2, user=zhangsan, password=123456, email=hhhh@jjk.com, phone=13688886666, name=null, createtime=Tue May 07 15:57:36 CST 2019, headurl=null, status=0)
+2019-05-08 10:30:12.939 [main] INFO  com.neuedu.SpringBoot001hs.mapper.UserMapperTest - 读取数据User(id=3, user=zhangsan, password=123456, email=hhhh@jjk.com, phone=13688886666, name=null, createtime=Tue May 07 15:57:36 CST 2019, headurl=null, status=0)
+2019-05-08 10:30:12.949 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-08 10:30:12.951 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - UserHikariCP - Shutdown initiated...
+2019-05-08 10:30:12.957 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - UserHikariCP - Shutdown completed.
+2019-05-08 10:30:31.238 [Thread-3] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-08 10:30:33.392 [main] INFO  com.neuedu.SpringBoot001hs.Applic - Starting Applic on huangshuaideMacBook-Pro.local with PID 15471 (/Users/tnoyh/Studio/IDEA/SpringBoot/SpringBoot001hs/target/classes started by tnoyh in /Users/tnoyh/Studio/IDEA/SpringBoot/SpringBoot001hs)
+2019-05-08 10:30:33.395 [main] INFO  com.neuedu.SpringBoot001hs.Applic - No active profile set, falling back to default profiles: default
+2019-05-08 10:30:34.341 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2019-05-08 10:30:34.354 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2019-05-08 10:30:34.362 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-05-08 10:30:34.362 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-08 10:30:34.574 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-05-08 10:30:34.578 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-08 10:30:34.578 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1148 ms
+2019-05-08 10:30:34.943 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-08 10:30:35.035 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-05-08 10:30:35.129 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2019-05-08 10:30:35.164 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2019-05-08 10:30:35.167 [main] INFO  com.neuedu.SpringBoot001hs.Applic - Started Applic in 2.102 seconds (JVM running for 2.497)
+2019-05-08 10:30:43.537 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-08 10:30:43.538 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-05-08 10:30:43.542 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2019-05-08 10:30:43.554 [http-nio-80-exec-1] INFO  c.neuedu.SpringBoot001hs.controller.UserController - 控制输出
