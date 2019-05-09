@@ -17,10 +17,10 @@ public class UserServiceImple implements UserService {
 
     @Override
     public PageInfo getUserList(int curPage, int pageSize) {
-        PageHelper.startPage(curPage,pageSize);
-        List<User> list=userMapper.selectAll();
+        PageHelper.startPage(curPage, pageSize);
+        List<User> list = userMapper.selectAll();
         //如果要显示当前页，下一页等就要写PageInfo⚠️⚠️⚠️⚠️⚠️
-        PageInfo pageInfo=new PageInfo(list);
+        PageInfo pageInfo = new PageInfo(list);
         //写完PageInfo返回就不能返回list⚠️⚠️⚠️ 而是要返回PageInfo 包括service里也是返回PageInfo
         return pageInfo;
     }

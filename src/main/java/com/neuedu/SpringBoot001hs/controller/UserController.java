@@ -19,12 +19,13 @@ public class UserController {
     private UserService userService;
 
     @GetMapping("/userIndex")
-    public ModelAndView userIndex(Integer pageNum,Integer pageSize){
+    public ModelAndView userIndex(Integer pageNum, Integer pageSize) {
         //因为写了分页 所以用PageInfo替换List<User>
-        PageInfo pageInfo = userService.getUserList(pageNum,pageSize);
-        ModelMap map=new ModelMap();
-        map.addAttribute("pageInfo",pageInfo);
-        ModelAndView modelView=new ModelAndView("userIndex",map);
+        //此分页为mybatis分页，后期会学习springData的分页
+        PageInfo pageInfo = userService.getUserList(pageNum, pageSize);
+        ModelMap map = new ModelMap();
+        map.addAttribute("pageInfo", pageInfo);
+        ModelAndView modelView = new ModelAndView("userIndex", map);
 //        log.info("控制输出");
         return modelView;
 

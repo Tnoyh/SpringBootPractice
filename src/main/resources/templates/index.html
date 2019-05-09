@@ -3,11 +3,13 @@
 <!DOCTYPE html>
 <html>
 <head lang="zh">
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <title>thymeleaf示例</title>
 </head>
 <body>
 <h1>Hello thymeleaf</h1>
 <h2 th:text="'名称：'+${name}">默认值</h2>
+<br><!--一些常用thymeleaf标签的使用-->
+<input type="text" name="userName" th:value="${name}">
 </body>
 </html>

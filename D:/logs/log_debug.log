@@ -80,3 +80,9 @@
 2019-05-08 15:22:14.022 [http-nio-80-exec-1] DEBUG c.n.SpringBoot001hs.mapper.UserMapper.selectAll - ==>  Preparing: select u_id, u_user,u_password,u_email,u_phone,u_name,u_createtime,u_headurl,u_status from USER LIMIT ? 
 2019-05-08 15:22:14.023 [http-nio-80-exec-1] DEBUG c.n.SpringBoot001hs.mapper.UserMapper.selectAll - ==> Parameters: 3(Integer)
 2019-05-08 15:22:14.025 [http-nio-80-exec-1] DEBUG c.n.SpringBoot001hs.mapper.UserMapper.selectAll - <==      Total: 3
+2019-05-08 15:26:15.456 [http-nio-80-exec-1] DEBUG c.n.S.mapper.UserMapper.selectAll_COUNT - ==>  Preparing: SELECT count(0) FROM USER 
+2019-05-08 15:26:15.471 [http-nio-80-exec-1] DEBUG c.n.S.mapper.UserMapper.selectAll_COUNT - ==> Parameters: 
+2019-05-08 15:26:15.485 [http-nio-80-exec-1] DEBUG c.n.S.mapper.UserMapper.selectAll_COUNT - <==      Total: 1
+2019-05-08 15:26:15.487 [http-nio-80-exec-1] DEBUG c.n.SpringBoot001hs.mapper.UserMapper.selectAll - ==>  Preparing: select u_id, u_user,u_password,u_email,u_phone,u_name,u_createtime,u_headurl,u_status from USER LIMIT ? 
+2019-05-08 15:26:15.487 [http-nio-80-exec-1] DEBUG c.n.SpringBoot001hs.mapper.UserMapper.selectAll - ==> Parameters: 3(Integer)
+2019-05-08 15:26:15.490 [http-nio-80-exec-1] DEBUG c.n.SpringBoot001hs.mapper.UserMapper.selectAll - <==      Total: 3

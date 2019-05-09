@@ -6,7 +6,6 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 
-
 @Repository   //@Repository用于标注数据访问组件，即DAO组件.
 public interface UserMapper {
 

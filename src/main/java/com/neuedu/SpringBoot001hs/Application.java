@@ -11,21 +11,21 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @MapperScan(value = "com.neuedu.SpringBoot001hs.mapper")
 public class Application {
 
-	static Logger logger= LoggerFactory.getLogger(Application.class);
+    static Logger logger = LoggerFactory.getLogger(Application.class);
 
-	public static void main(String[] args) {
-
-
-		//两种方法
-		//SpringApplication.run(Applic.class, args);
+    public static void main(String[] args) {
 
 
-		SpringApplication application=new SpringApplication(Application.class);
-		//手动设置命令行不起作用
-		//application.setAddCommandLineProperties(false);
-		application.run(args);
-		//System.out.println("main");
+        //两种方法
+        //SpringApplication.run(Applic.class, args);
 
-	}
+
+        SpringApplication application = new SpringApplication(Application.class);
+        //手动设置命令行不起作用
+        //application.setAddCommandLineProperties(false);
+        application.run(args);
+        //System.out.println("main");
+
+    }
 
 }

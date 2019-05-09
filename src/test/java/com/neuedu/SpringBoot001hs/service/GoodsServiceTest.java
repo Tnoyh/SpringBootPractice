@@ -28,11 +28,11 @@ public class GoodsServiceTest extends BaseAppTest {
     }
 
     @Test
-    public void add(){
+    public void add() {
         //log.info("Test");
         //接下来进行测试，加一个断言测试 1+1肯定等于2的
-        Integer sum=goodsService.add(1,1);
-        Assert.assertTrue("两数相加和：",sum==2);//后边是一个布尔值
+        Integer sum = goodsService.add(1, 1);
+        Assert.assertTrue("两数相加和：", sum == 2);//后边是一个布尔值
 
         //如果在GoodsServiceImple里将return 的值改为 a-b，则会报测试的错误
     }

@@ -9,3 +9,4 @@
 2019-05-08 10:30:35.015 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
 2019-05-08 13:06:15.390 [UserHikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - UserHikariCP - Thread starvation or clock leap detected (housekeeper delta=1h14m1s4ms).
 2019-05-08 13:59:23.021 [UserHikariCP housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - UserHikariCP - Thread starvation or clock leap detected (housekeeper delta=53m7s641ms).
+2019-05-08 16:23:22.337 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.

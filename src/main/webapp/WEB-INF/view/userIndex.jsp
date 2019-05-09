@@ -18,10 +18,14 @@
             <td>${user.user}</td>
             <td>${user.password}</td>
             <td>${user.email}</td>
-            <td><a href="/updateUser">修改</a></td>
+            <td><a href="/updateUser">修改</a></td><!--写修改的时候，里边一定要传个参数href="/updateUser?=$ {user.id}-->
         </tr>
     </c:forEach>
-    <tr>当前页：${pageInfo.pageNum} 记录数：${pageInfo.total} 总页数：${pageInfo.pages}</tr>
+    <tr>
+        <td>当前页：${pageInfo.pageNum} </td>
+        <td>记录数：${pageInfo.total} </td>
+        <td>总页数：${pageInfo.pages}</td>
+    </tr>
 </table>
 </body>
 </html>
